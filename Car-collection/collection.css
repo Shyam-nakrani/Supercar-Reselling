@@ -193,55 +193,55 @@ nav ul li a {
 }
 
 .img-1 {
-  background-image: url("/images/reselling-car photos/bmw 1.jpg");
+  background-image: url("../images/reselling-car photos/bmw 1.jpg");
 }
 
 .img-2 {
-  background-image: url("/images/reselling-car photos/bmw 2.jpg");
+  background-image: url("../images/reselling-car photos/bmw 2.jpg");
 }
 
 .img-3 {
-  background-image: url("/images/reselling-car photos/bmw 3.jpg");
+  background-image: url("../images/reselling-car photos/bmw 3.jpg");
 }
 
 .img-4 {
-  background-image: url("/images/reselling-car photos/bmw 4.jpg");
+  background-image: url("../images/reselling-car photos/bmw 4.jpg");
 }
 
 .img-5 {
-  background-image: url("/images/reselling-car photos/bmw 4.jpg");
+  background-image: url("../images/reselling-car photos/bmw 4.jpg");
 }
 
 .img-6 {
-  background-image: url("/images/reselling-car photos/bmw 6.jpg");
+  background-image: url("../images/reselling-car photos/bmw 6.jpg");
 }
 
 .img-7 {
-  background-image: url("/images/reselling-car photos/bmw 7.jpg");
+  background-image: url("../images/reselling-car photos/bmw 7.jpg");
 }
 
 .img-8 {
-  background-image: url("/images/reselling-car photos/bmw 8.jpg");
+  background-image: url("../images/reselling-car photos/bmw 8.jpg");
 }
 
 .img-9 {
-  background-image: url("/images/reselling-car photos/bmw 9.jpg");
+  background-image: url("../images/reselling-car photos/bmw 9.jpg");
 }
 
 .img-10 {
-  background-image: url("/images/reselling-car photos/bmw 10.jpg");
+  background-image: url("../images/reselling-car photos/bmw 10.jpg");
 }
 
 .img-11 {
-  background-image: url("/images/reselling-car photos/bmw 11.jpg");
+  background-image: url("../images/reselling-car photos/bmw 11.jpg");
 }
 
 .img-12 {
-  background-image: url("/images/reselling-car photos/bmw 12.jpg");
+  background-image: url("../images/reselling-car photos/bmw 12.jpg");
 }
 
 .img-13 {
-  background-image: url("/images/reselling-car photos/bmw 13.jpg");
+  background-image: url("../images/reselling-car photos/bmw 13.jpg");
 }
 
 .img-14 {
@@ -314,7 +314,7 @@ footer {
 }
 
 .logo-img {
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
