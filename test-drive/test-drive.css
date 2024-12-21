@@ -1,0 +1,114 @@
+body {
+  background: url("buggati.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.car-form {
+  border: 1px solid rgba(245, 222, 179, 0.096);
+  background-color: #33333369;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.car-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.car-form label {
+  display: block;
+  margin-bottom: 0.4rem;
+}
+
+.car-form input[type="text"],
+.car-form input[type="email"],
+.car-form input[type="tel"],
+.car-form input[type="number"],
+.car-form input[type="date"],
+.car-form input[type="time"] {
+  border: none;
+  background-color: #444444ac;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(245, 222, 179, 0.538);
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.car-form select {
+  border: none;
+  background-color: #44444480;
+  border: 1px solid rgba(245, 222, 179, 0.538);
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 103%;
+  border-radius: 0.25rem;
+}
+
+.car-form input[type="submit"],
+[type="reset"] {
+  background-color: #55555590;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  border: 1px solid rgba(245, 222, 179, 0.538);
+  padding: 10px 35px;
+}
+
+#btn:hover {
+  color: rgba(245, 222, 179, 0.538);
+  transition: all ease 0.8s;
+}
+
+.btn1 {
+  transition: all ease 0.8s;
+  margin-left: 10px;
+  border: 1px solid rgba(245, 222, 179, 0.538);
+  padding: 10px 35px;
+}
+
+.hov:hover {
+  color: rgba(245, 222, 179, 0.538);
+}
+
+@media (max-width: 600px) {
+  .car-form {
+    padding: 1rem;
+  }
+
+  .car-form input[type="text"],
+  .car-form input[type="email"],
+  .car-form input[type="tel"],
+  .car-form input[type="date"],
+  .car-form input[type="time"] {
+    margin-bottom: 0.75rem;
+  }
+
+  .car-form label {
+    margin-bottom: 0.25rem;
+  }
+
+  .car-form select {
+    margin-bottom: 0.75rem;
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="/Minor Project-2/images/logo.png" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Test Drive form</title>
+  <link
+  rel="shortcut icon"
+  href="/images\logo.png"
+  type="image/x-icon"
+/>
+  <link rel="stylesheet" href="test-drive.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <div class="car-form" data-aos="fade-up">
+    <h2>Car Test Drive Form</h2>
+    <form action="test_prive.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="Enter Your Full Nmae" />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required placeholder="Enter Your Full Address" />
+
+      <label for="place">Place:</label>
+      <input type="text" id="place" name="place" required placeholder="Enter Your Place" />
+
+      <label for="z-code">Zip Code:</label>
+      <input type="number" id="z-code" name="z_code" required placeholder="Enter Your Zip Code" />
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required placeholder="Enter Your City" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="Enter Your Email" />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required placeholder="Enter Your Phone No." />
+
+      <label for="car_company">Car company:</label>
+      <select id="car_company" name="car_company" required>
+        <option value="">Select from list</option>
+        <option value="Lamborghini">Lamborghini</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Bently">Bently</option>
+        <option value="Porsche">Porsche</option>
+      </select>
+
+      <label for="car-model">Car Model:</label>
+      <input type="text" id="car-model" name="car_model" required placeholder="Enter Your Car Model" />
+
+      <label for="test-drive-date">Test Drive Date:</label>
+      <input type="date" id="test-drive-date" name="test_date" required />
+
+      <label for="test-drive-time">Test Drive Time:</label>
+      <input type="time" id="test-drive-time" name="test_time" required />
+      <div class="btn-menu">
+        <input type="submit" value="Submit" id="btn" class="hov" />
+        <input type="reset" value="Reset" class="btn1 hov" />
+      </div>
+    </form>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    AOS.init({
+      duration: 1000,
+      easing: "ease",
+    });
+  </script>
+</body>
+
+</html>

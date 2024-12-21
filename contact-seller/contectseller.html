@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/images\logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="contact-seller.css" />
+    <title>Contact Seller</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <div class="container" data-aos="fade-up">
+      <h1>Contact Seller</h1>
+      <form id="contact-form" action="cotactseller.php" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter Your Full Name"
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Enter Your Email "
+        />
+
+        <label for="phone">Phone:</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          placeholder="Enter Your Phone No."
+        />
+
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          placeholder="Write a Message..."
+        ></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+      });
+    </script>
+  </body>
+</html>
