@@ -49,7 +49,7 @@ ul {
 /* Nav bar */
 
 .container .logogif {
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,7 +225,7 @@ nav ul li a {
 }
 
 .image-happy-cust {
-  background-image: url("/images/happy-customer.jpg");
+  background-image: url("../images/happy-customer.jpg");
   border-radius: 15px;
   height: 340px;
   width: 500px;
@@ -235,7 +235,7 @@ nav ul li a {
 }
 
 .image-happy-cust2 {
-  background-image: url("/images/asias-biggest-studio.jpg");
+  background-image: url("../images/asias-biggest-studio.jpg");
   border-radius: 15px;
   height: 340px;
   width: 500px;
@@ -245,7 +245,7 @@ nav ul li a {
 }
 
 .image-happy-cust3 {
-  background-image: url("/images/service.jpeg.jpg");
+  background-image: url("../images/service.jpeg.jpg");
   border-radius: 15px;
   border-radius: 15px;
   height: 340px;
@@ -256,7 +256,7 @@ nav ul li a {
 }
 
 .image-happy-cust4 {
-  background-image: url("/images/30-luxury.jpg");
+  background-image: url("../images/30-luxury.jpg");
   border-radius: 15px;
   height: 340px;
   width: 500px;
@@ -311,7 +311,7 @@ footer {
 }
 
 .logo-img {
-  background-image: url("/images/logo.png");
+  background-image: url("../images/logo.png");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
