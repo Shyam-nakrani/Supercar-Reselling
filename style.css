@@ -228,6 +228,11 @@ nav ul li a {
   padding-top: 25px;
 }
 
+.icons-links{
+  margin: 7px;
+  font-size:20px
+}
+
 .btn-hov {
   transition: 0.2s ease-in;
 }
